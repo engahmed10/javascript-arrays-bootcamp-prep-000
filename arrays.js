@@ -5,8 +5,8 @@ function addElementToBeginningOfArray( array,element)
     array =[];
  //array= [element, ...array];
  array[1]=element ;
- //console.log(array)
- return array
+ //console.log(array[1])
+ return array[1]
  
 }
 
