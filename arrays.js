@@ -14,6 +14,7 @@ array.unshift(element)
 }
 function addElementToEndOfArray(array, element) 
 {
- array.shift(element)
+ array= [...array,element];
  return array
+ 
 }
