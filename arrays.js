@@ -6,4 +6,9 @@ function addElementToBeginningOfArray( array,element)
  return array
  
 }
-
+function addElementToBeginningOfArray( array,element)
+{
+ array= [element,...array];
+ return array
+ 
+}
