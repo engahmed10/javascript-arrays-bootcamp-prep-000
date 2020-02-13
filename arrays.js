@@ -7,9 +7,3 @@ chocolateBars= ["element", ...array];
   return chocolateBars
 }
 
-function destructivelyAddElementToBeginningOfArray( array,element)
-{
- // chocolateBars1=chocolateBars
-  chocolateBars[array] = element;
-  return chocolateBars
-}
