@@ -18,7 +18,4 @@ function addElementToEndOfArray(array, element)
  return array
  
 }
-function destructivelyAddElementToBeginningOfArray( array,element)
-{
- 
-}
+
