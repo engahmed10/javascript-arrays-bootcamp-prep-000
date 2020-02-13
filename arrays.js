@@ -4,6 +4,7 @@ function addElementToBeginningOfArray( array,element)
 {
 //chocolateBars= ["element", ...array];
   array[1] = element 
-  return array
+  chocolateBars=[array]
+  return chocolateBars
 }
 
